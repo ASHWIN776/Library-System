@@ -16,30 +16,30 @@ The main user for this system is an admin who can:
 ![Menu Snap](snaps/menu.png)
 
 The features are shown in the snap above:
-1. **Add a book**
+1. **Add a book**\
 Admin can add books to the system. Each book has the following information:
 	* id (integer)
 	* name (string) -- no spaces for now
 	* quantity (integer)
 
-2. **Search books by prefix**
+2. **Search books by prefix**\
 Admin can search books in the database by prefixes.
 
-3. **Print Library by id**
+3. **Print Library by id**\
 Here the library is sorted by id of the books and printed.
 
-4. **Print Library by name**
+4. **Print Library by name**\
 Here the library is sorted by name of the books and printed.
 
-5. **Add a user**
+5. **Add a user**\
 Admin can add usersto the system who can inturn borrow/return books. Each user has the following information:
 	* id (integer)
 	* name (string) -- no spaces for now
 
-6. **Borrow a book**
+6. **Borrow a book**\
 Users can borrow books from the library. The admin has to enter the username and the bookname and the book will be successfully borrowed if it's available.
 
-7. **Return a book**
+7. **Return a book**\
 Same logic.
 
 
