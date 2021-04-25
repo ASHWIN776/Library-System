@@ -7,8 +7,8 @@ This is a simple version of the classical library systems found in many librarie
 Currently there are no login/logout functionalities in this system. However, it will surely be added in the future versions.
 
 The main user for this system is an admin who can:
-	* Add a book, user
-	* Perform relevant operations(Shown in the menu below)
+* Add a book, user
+* Perform relevant operations(Shown in the menu below)
 
 ---
 ## Features
