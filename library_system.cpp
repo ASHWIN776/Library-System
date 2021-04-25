@@ -142,6 +142,9 @@ void search_by_prefix(book b[])
 // used to print books after they are sorted
 void print_books(book b[])
 {
+    if(book_idx == 0)
+        cout<<"No books present currently";
+    
     for(int i = 0; i < book_idx; ++i)
         b[i].print();
 }
@@ -309,6 +312,9 @@ void print_who_borrowed_book_by_name(book b[], user u[])
 
 void print_users(user u[])
 {
+    if(user_idx == 0)
+        cout<<"No user details present currently";
+
     for(int i = 0; i < user_idx; ++i)
     {
         u[i].print();
