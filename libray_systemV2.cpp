@@ -45,15 +45,17 @@ struct book{
 
     bool borrow_book()
     {   
-        if(borrowed == qty)
+        if(qty == 0)
             return false;
         ++borrowed;
+        --qty;
         return true;
     }
 
     void return_book()
     {   
         --borrowed;
+        ++qty;
     }
 };
 
