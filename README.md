@@ -10,7 +10,7 @@ The main user for this system is an admin who can:
 * Add a book, user
 * Perform relevant operations(Shown in the menu below)
 
-_Here library is managed with a struct in the whole, hence making it more flexible and efficient. So, 
+_Here library is managed with a struct in the whole, hence making it more flexible and efficient. So,_ 
 > library_systemV2.cpp is more efficient than library_system.cpp
 
 I just included the latter because its a legit way to code the system
